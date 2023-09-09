@@ -1,0 +1,10 @@
+@import url('./reset.css');
+@import url('./card.css');
+@import url('./decomposition.css');
+@import url('./collapse.css');
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  word-break: break-word;
+  padding: 20px;
+}

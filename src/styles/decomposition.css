@@ -1,0 +1,83 @@
+.navigation {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.news-section {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: flex-end;
+  margin-left: 120px;
+}
+
+.news_main {
+  width: 600px;
+}
+
+.widget_title {
+  font-weight: 700;
+}
+
+.navigation-tab_list {
+  display: flex;
+  gap: 10px;
+}
+
+.yndyx-logo {
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+.search_input {
+  width: 500px;
+}
+
+.news-header {
+  display: flex;
+}
+
+.article-card_image {
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+}
+
+.oddvertisement_cover {
+  width: 80%;
+  height: 100px;
+  background-color: #000;
+  display: block;
+}
+
+.widgets {
+  display: flex;
+  flex-direction: column;
+  max-height: 200px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.widget {
+  max-width: 200px;
+}
+
+.yndyx_container {
+  margin-bottom: 40px;
+}
+
+.oddvertisement-banner {
+  margin-bottom: 20px;
+}
+
+.widgets_section {
+  margin-left: 120px;
+}
+
+.news-item_icon {
+  position: absolute;
+  right: 6px;
+}
+
+.news-item_link {
+  position: relative;
+}

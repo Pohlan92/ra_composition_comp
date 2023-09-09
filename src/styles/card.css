@@ -1,0 +1,49 @@
+:root {
+  --card-border-radius: 5px;
+}
+
+.cards-container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card {
+  border: 1px solid #aaa;
+  border-radius: var(--card-border-radius);
+  max-width: 290px;
+}
+
+.card-img-top {
+  display: block;
+  width: 100%;
+  border-top-left-radius: var(--card-border-radius);
+  border-top-right-radius: var(--card-border-radius);
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+
+  background-color: #0f7ffa;
+  color: #fff;
+  text-decoration: none;
+
+  cursor: pointer;
+}
